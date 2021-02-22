@@ -2,6 +2,7 @@
 /*
 Dik Dik Nur Illahi
 203040072
+https://github.com/Dik-Dik-Nur-Illahi/pw2021_203040072
 Pertemuan 2 - 14 Februari 2021
 Mempelajari Mengenai sintaks PHP
 */
@@ -59,8 +60,8 @@ Mempelajari Mengenai sintaks PHP
 
 // Logika
 // &&, ||, !
-$x = 30
-var_dump($x < 20 || $x % 2 == 0);
+// $x = 30
+// var_dump($x < 20 || $x % 2 == 0);
 
 
 
