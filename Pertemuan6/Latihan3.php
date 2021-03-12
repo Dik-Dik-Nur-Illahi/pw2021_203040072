@@ -14,22 +14,22 @@ Mempelajari Mengenai Array Associative - Tugas pertemuan 6
 $mobil = [
 [
         "brand" => "Honda",
-        "tipe" => "NSX Accura",
         "CC" => "3500cc",
+        "tipe" => "NSX Accura",
         "tahun" => "2016",
         "foto" => "nsx1.jpg"
     ],
 [
         "brand" => "Nissan",
-        "tipe" => "Skyline GTR R34",
         "CC" => "2500cc",
+        "tipe" => "Skyline GTR R34",
         "tahun" => "2000",
         "foto" => "gtr.jpg"
     ],
 [
         "brand" => "Mazda",
-        "tipe" => "RX-7 Veilside",
         "CC" => "1300cc",
+        "tipe" => "RX-7 Veilside",
         "tahun" => "2000",
         "foto" => "rx7.jpg"
     ],

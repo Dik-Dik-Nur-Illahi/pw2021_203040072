@@ -11,7 +11,7 @@ Mempelajari Mengenai Array Associative
 <?php 
 $mahasiswa1 = [
 ["Dik Dik Nur Illahi", "203040072", "dikdiknurillahi@gamil.com", "Teknik Informatika"],
-["Uciha Boruto", "203040069", "ucihaboruto@gamil.com", "Teknik Ninja"]
+["Uciha Boruto", "203040099", "ucihaboruto@gamil.com", "Teknik Ninja"]
 ]; 
 
 

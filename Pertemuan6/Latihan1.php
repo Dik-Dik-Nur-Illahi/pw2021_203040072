@@ -15,7 +15,7 @@ Mempelajari Mengenai Array Associative
 // Ada 2 cara membuat array cara lama dan cara baru
 
 // cara lama
-$hari = array("Senin", "Selasa", "Rabu");
+$hari = array("Senin", "Selasa", "Rabu","rabu");
 // cara baru
 $bulan = ["Januari", "Februari", "Maret"];
 $arr = [100, "teks", true];
