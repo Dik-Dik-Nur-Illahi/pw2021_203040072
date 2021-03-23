@@ -1,4 +1,15 @@
 <?php
+/*
+Dik Dik Nur Illahi
+203040072
+https://github.com/Dik-Dik-Nur-Illahi/pw2021_203040072
+Pertemuan 7 - 23 Maret 2021
+Mempelajari Mengenai GET & POST
+*/
+?>
+
+
+<?php
 // Variabel Scope / lingkup Variabel
 // $x = 10; //variabel local untuk halaman
 // // echo $x;
