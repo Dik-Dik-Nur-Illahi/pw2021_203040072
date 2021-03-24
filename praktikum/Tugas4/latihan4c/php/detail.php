@@ -1,4 +1,11 @@
 <?php
+// Dik Dik Nur Illahi
+// 203040072
+// Jumat 10.00 - 11.00
+?>
+
+
+<?php
 // mengecek apakah ada id yang dikirimkan
 // jika tidak maka akan dikembalikan ke halaman index.php
 if (!isset ($_GET["id"])) {
