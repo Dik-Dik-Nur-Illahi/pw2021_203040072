@@ -3,8 +3,8 @@
 Dik Dik Nur Illahi
 203040072
 https://github.com/Dik-Dik-Nur-Illahi/pw2021_203040072
-Pertemuan 10 - 30 April 2021
-Mempelajari Mengenai Menghubungkan data base
+Pertemuan 11 - 7 mei 2021
+Mempelajari Mengenai Hapus, Tambah, Searching
 */
 ?>
 
@@ -37,9 +37,9 @@ $m = query("SELECT * FROM mobil WHERE id = $id");
     <li>Tahun : <?= $m['tahun']; ?></li>
     <li>CC : <?= $m['cc']; ?></li>
     <li>
-      <a href="">Ubah</a> | <a href="">Hapus</a>
+      <a href="ubah.php?id=<?= $m['id']; ?>">Ubah</a> | <a href="hapus.php?id=<?= $m['id']; ?>" onclick="return confirm('apakah anda yakin ingin menghapus data?');">Hapus</a>
     </li>
-    <li><a href="latihan3.php">Kembali Ke Daftar Mahasiswa</a></li>
+    <li><a href="index.php">Kembali Ke Daftar Mahasiswa</a></li>
   </ul>
 </body>
 

@@ -3,7 +3,7 @@
 Dik Dik Nur Illahi
 203040072
 https://github.com/Dik-Dik-Nur-Illahi/pw2021_203040072
-Pertemuan 7 - 30 April 2021
+Pertemuan 10 - 30 April 2021
 Mempelajari Mengenai Menghubungkan data base
 */
 ?>

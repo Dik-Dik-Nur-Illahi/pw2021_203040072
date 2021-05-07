@@ -3,8 +3,8 @@
 Dik Dik Nur Illahi
 203040072
 https://github.com/Dik-Dik-Nur-Illahi/pw2021_203040072
-Pertemuan 10 - 30 April 2021
-Mempelajari Mengenai Menghubungkan data base
+Pertemuan 11 - 7 mei 2021
+Mempelajari Mengenai Hapus, Tambah, Searching
 */
 ?>
 
@@ -16,7 +16,7 @@ if (isset($_POST['tambah'])) {
   if (tambah($_POST) > 0) {
     echo "<script>
             alert('Data Berhasil Ditambahkan');
-            document.location.href ='latihan3.php';
+            document.location.href ='index.php';
           </script>";
   } else {
     echo "data gagal ditambahkan";
