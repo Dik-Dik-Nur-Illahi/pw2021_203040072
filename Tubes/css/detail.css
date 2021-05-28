@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Staatliches";
+  src: url('../assets/font/Staatliches/Staatliches-Regular.ttf');
+}
+
+.detail h3 {
+  font-family: "Staatliches";
+  font-style: italic;
+  color: black;
+}
+
+.detail h6 {
+  font-family: "Staatliches";
+  color: black;
+  font-style: italic;
+}
+
+.kategori {
+  font-family: "Staatliches";
+  color: black;
+}

@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "Staatliches";
+  src: url('../assets/font/Staatliches/Staatliches-Regular.ttf');
+}
+
+.member {
+  background-image: url("../assets/slider/member.jpg");
+  height: 400px;
+  filter: grayscale(80%);
+  background-size: cover;
+  background-position: 0 40%;
+}
+
+.member h4 {
+  padding-top: 90px;
+  font-family: "Staatliches";
+  font-size: 60px;
+  color: white;
+}
+
+.member p {
+  font-size: 18px;
+  color: white;
+}
+
+.boton {
+  font-family: "Staatliches";
+}

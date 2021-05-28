@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "Staatliches";
+  src: url('../assets/font/Staatliches/Staatliches-Regular.ttf');
+}
+
+.jumbotron {
+  background-image: url("../assets/slider/admin.jpg");
+  height: 400px;
+  background-size: cover;
+  background-position: 0 60%;
+}
+
+.jumbotron p {
+  font-family: "Staatliches";
+  padding: 150px 0 0 40%;
+  font-size: 120px;
+  color: white;
+}

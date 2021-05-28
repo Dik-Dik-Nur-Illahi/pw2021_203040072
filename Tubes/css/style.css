@@ -1,0 +1,116 @@
+@font-face {
+  font-family: "Staatliches";
+  src: url('../assets/font/Staatliches/Staatliches-Regular.ttf');
+}
+
+section {
+  padding: 10px 0;
+}
+
+
+/* Hover img */
+.card1 {
+  background-image: url("../assets/slider/card1.jpg");
+  background-size: cover;
+  height: 500px;
+  transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -o-trasition: all .5s ease;
+  -webkit-trasition: all .5s ease;
+  -ms-trasition: all .5s ease;
+  filter: Grayscale(100%);
+  -moz-filter: Grayscale(100%);
+  -o-filter: Grayscale(100%);
+  -webkit-filter: Grayscale(100%);
+  -ms-filter: Grayscale(100%);
+}
+
+.card1:hover {
+  box-shadow: 0 0 100px rgba(0, 0, 0, .5);
+  -moz-box-shadow: 0 0 100px rgba(0, 0, 0, .5);
+  -o-box-shadow: 0 0 100px rgba(0, 0, 0, .5);
+  -webkit-box-shadow: 0 0 100px rgba(0, 0, 0, .5);
+  -ms-box-shadow: 0 0 100px rgba(0, 0, 0, .5);
+  z-index: 1000;
+  transform: scale(1.06);
+  -moz-transform: scale(1.06);
+  -o-transform: scale(1.06);
+  -webkit-transform: scale(1.06);
+  -ms-transform: scale(1.06);
+  filter: Grayscale(0%);
+  -moz-filter: Grayscale(0%);
+  -o-filter: Grayscale(0%);
+  -webkit-filter: Grayscale(0%);
+  -ms-filter: Grayscale(0%);
+}
+
+.card2 {
+  background-image: url("../assets/slider/card2.jpg");
+  background-size: cover;
+  height: 500px;
+  background-position: 0 -150px;
+  transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -o-trasition: all .5s ease;
+  -webkit-trasition: all .5s ease;
+  -ms-trasition: all .5s ease;
+  filter: Grayscale(100%);
+  -moz-filter: Grayscale(100%);
+  -o-filter: Grayscale(100%);
+  -webkit-filter: Grayscale(100%);
+  -ms-filter: Grayscale(100%);
+}
+
+.card2:hover {
+  box-shadow: 0 0 100px rgba(0, 0, 0, .5);
+  -moz-box-shadow: 0 0 100px rgba(0, 0, 0, .5);
+  -o-box-shadow: 0 0 100px rgba(0, 0, 0, .5);
+  -webkit-box-shadow: 0 0 100px rgba(0, 0, 0, .5);
+  -ms-box-shadow: 0 0 100px rgba(0, 0, 0, .5);
+  z-index: 1000;
+  transform: scale(1.06);
+  -moz-transform: scale(1.06);
+  -o-transform: scale(1.06);
+  -webkit-transform: scale(1.06);
+  -ms-transform: scale(1.06);
+  filter: Grayscale(0%);
+  -moz-filter: Grayscale(0%);
+  -o-filter: Grayscale(0%);
+  -webkit-filter: Grayscale(0%);
+  -ms-filter: Grayscale(0%);
+}
+
+/* hover text */
+.card1 p {
+  font-family: "Staatliches";
+  color: white;
+  opacity: 0;
+  font-size: 100px;
+  transition: all .1s ease;
+  -moz-transition: all .1s ease;
+  -o-trasition: all .1s ease;
+  -webkit-trasition: all .1s ease;
+  -ms-trasition: all .1s ease;
+}
+
+.card1:hover p {
+  padding-top: 180px;
+  opacity: 1;
+}
+
+.card2 p {
+  font-family: "Staatliches";
+  color: white;
+  opacity: 0;
+  font-size: 100px;
+  transition: all .1s ease;
+  -moz-transition: all .1s ease;
+  -o-trasition: all .1s ease;
+  -webkit-trasition: all .1s ease;
+  -ms-trasition: all .1s ease;
+}
+
+.card2:hover p {
+  padding-top: 180px;
+  opacity: 1;
+}
