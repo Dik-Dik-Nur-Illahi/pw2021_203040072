@@ -198,7 +198,7 @@ function member($data)
   $query = "INSERT INTO 
               member
             VALUES
-            ('', '$email');
+            (null, '$email');
             ";
   mysqli_query($conn, $query) or die(mysqli_error($conn));
   return mysqli_affected_rows($conn);
